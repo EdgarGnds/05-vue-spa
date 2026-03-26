@@ -5,7 +5,7 @@ import router from '@/router';
 describe('<App />', () => {
   test('should be render correctly with RouterView', () => {
     const wrapper = shallowMount(App, {
-      globlal: {
+      global: {
         plugins: [router],
       },
     });
